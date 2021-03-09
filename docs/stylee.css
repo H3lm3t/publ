@@ -1,0 +1,224 @@
+body {
+  margin: auto 0;
+/*  background-image: url("../img/pb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-image: url(bc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.zone {
+  border: 1px solid black;
+}*/
+
+/*NAV*/
+
+.one {
+  display: flex;
+  font-size: 1.3em;
+  height: 4vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.one:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.menu {
+/*  margin-left: auto;*/
+  text-decoration: none;
+  color: white;
+/*  padding-left: 110px;
+  padding-right: 110px;*/
+  text-indent: center;
+  justify-content: center;
+  margin-left: 90px;
+/*  padding-left: 20px;
+  padding-right: 20px;*/
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 37px;
+  margin-left: 37px;
+  font-family: arshia;
+}
+
+@media only screen and (max-width: 600px) {
+  .one {
+    height: 10vh;
+  }
+}
+
+.drp {
+  position: relative;
+  display: inline-grid;
+}
+
+.drpp {
+  display: none;
+  position: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 60px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  padding: 10px 10px;
+  z-index: 1;
+}
+
+.drp:hover .drpp {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.w {
+  color: white;
+  font-family: arshia;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.w:hover {
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    font-size: 1em;
+    margin: auto;
+    font-family: arshia;
+  }
+}
+
+.menu:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.w {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1em;
+    padding: 0;
+  }
+}
+
+img {
+  height: 60vh;
+  width: 40vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dscrptn {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 6fr 1fr 5fr));
+  text-align: center;
+  grid-gap: 20px;
+  color: white;
+}
+
+#ffff {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#qwe {
+  text-decoration: none;
+  font-family: arshia;
+  font-size: 3em;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 35vh;
+  color: white;
+  text-align: right;
+}
+
+.more {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+hr {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.ftwrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.l {
+  display:grid;
+  grid-template-columns: 1fr;
+  padding-top: 10px;
+  font-family: arshia;
+  font-size: 1.7em;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin: auto;
+  height: 20vh;
+  width: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    scale: 0.6;
+    height: 18vh;
+    width: 18vh;
+  }
+}
+
+.short {
+  display: grid;
+  grid-template-columns: 30% 69%;
+}
+
+.text-srt {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: right;
+  color: wheat;
+  font-family: Roya;
+}
+
+h3 {
+  text-align: center;
+}
+
+.im {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.im:hover {
+  scale: 1.03;
+  -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            transition: 0.7s;
+}
+
+@media only screen and (max-width: 600px) {
+  .short{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .im {
+/*    display: none;*/
+  }
+}

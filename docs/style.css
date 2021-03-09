@@ -1,0 +1,545 @@
+body {
+  margin: auto 0;
+/*  background-image: url("../img/pb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-image: url(bc.jpg);
+  background-size: cover;
+}
+
+/*.zone {
+  border: 1px solid black;
+}*/
+
+/*NAV*/
+
+/*.stick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+
+.one {
+  display: flex;
+  font-size: 1.3em;
+  height: 4vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.one:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.menu {
+/*  margin-left: auto;*/
+  text-decoration: none;
+  color: white;
+/*  padding-left: 110px;
+  padding-right: 110px;*/
+  text-indent: center;
+  justify-content: center;
+  margin-left: 90px;
+/*  padding-left: 20px;
+  padding-right: 20px;*/
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 37px;
+  margin-left: 37px;
+  font-family: arshia;
+}
+
+@media only screen and (max-width: 600px) {
+  .one {
+    height: 10vh;
+  }
+}
+
+.drp {
+  position: relative;
+  display: inline-grid;
+}
+
+.drpp {
+  display: none;
+  position: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 60px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  padding: 10px 10px;
+  z-index: 1;
+}
+
+.drp:hover .drpp {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.w {
+  color: white;
+  font-family: arshia;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.w:hover {
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    font-size: 1em;
+    margin: auto;
+    font-family: arshia;
+  }
+}
+
+.menu:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.w {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1em;
+    padding: 0;
+  }
+}
+
+
+
+
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: darkgrey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*EVNTS*/
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+.on {
+  background-color: rgba(25, 25, 25, 0.5);
+  text-align: right;
+}
+
+.events {
+
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  padding: 10px;
+}
+
+#list1 {  
+  border-right: 2px solid wheat;
+  list-style: none;
+  padding: 10px;
+}
+
+#list2 {
+  list-style: none;
+  padding: 10px;
+}
+
+.new {
+  text-decoration: none;
+  font-family: arshia;
+  letter-spacing: 1.5px;
+  font-size: 1.3rem;
+  color: wheat;
+}
+
+.new:hover {
+  color: grey;
+}
+
+.neww {
+  text-decoration: none;
+  font-family: arshia;
+  letter-spacing: 1.5px;
+  font-size: 1.3rem;
+  color: wheat;
+}
+
+.neww:hover {
+  color: grey;
+}
+
+/*.ffffff {
+  height: 10vh;
+  background-color: red;
+}*/
+
+/*BRSR*/
+
+h2 {
+  text-align: center;
+  color: lightgrey;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box { 
+  margin: 0;
+  border-radius: 25px 25px 0 0;
+  background-color:  background: #7d7e7d;
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); 
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+     opacity: 0.9;
+}
+
+.box:hover {
+  scale: 1.01;
+  background-color:  background: #7d7e7d;
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.fig {
+  text-align: center;
+}
+
+#titles {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3vh
+}
+
+#titles:hover {
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#title {
+  text-decoration: none;
+  font-family: arshia;
+  letter-spacing: 1px;
+  color: white;
+}
+
+figcaption {
+  color: grey;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 35vh;
+  color: white;
+  text-align: right;
+}
+
+p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+hr {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.ftwrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.l {
+  display:grid;
+  grid-template-columns: 1fr;
+  padding-top: 10px;
+  font-family: arshia;
+  font-size: 1.7em;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    scale: 0.6;
+    height: 18vh;
+    width: 18vh;
+  }
+}
+
+.short {
+  display: grid;
+  grid-template-columns: 30% 69%;
+}
+
+.text-srt {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: right;
+  color: wheat;
+  font-family: Roya;
+}
+
+h3 {
+  text-align: center;
+}
+
+.im {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.im:hover {
+  scale: 1.03;
+  -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 7px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            transition: 0.7s;
+}
+
+@media only screen and (max-width: 600px) {
+  .short{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .im {
+/*    display: none;*/
+  }
+}
